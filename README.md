@@ -1,40 +1,40 @@
 <div align="center">
-
-<h1>Hello, I'm SungRyulCho! 👋</h1>
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&pause=1000&color=3399FF&center=true&vCenter=true&width=435&lines=A+Growing+Backend+Developer" alt="Typing SVG" />
-<p>A detail-oriented developer focused on building efficient and scalable backend systems.</p>
-
-<p>
-  <a href="mailto:hahahoho5811@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white"></a>
-  <a href="https://velog.io/@ashi0312/"><img src="https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=Vimeo&logoColor=white"></a>
-</p>
-
-</div>
-
----
-
-<h2 align="center">🛠️ Skills & Expertise 🛠️</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-</p>
-
----
-
-<h2 align="center">📊 GitHub Activity 📊</h2>
-
-<div align="center">
   <a href="https://github.com/SungRyulCho">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=SungRyulCho&show_icons=true&theme=tokyonight" />
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SungRyulCho&layout=compact&theme=tokyonight" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:44d9e6,100:7a2adf&height=220&section=header&text=Welcome%20to%20My%20Profile!&fontSize=60&fontAlignY=35&animation=fadeIn&fontColor=fff" />
   </a>
 </div>
 
----
+<div align="center">
+  <h3>
+    <b>A detail-oriented developer focused on building efficient and scalable backend systems.</b>
+  </h3>
+</div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SungRyulCho&style=flat-square&color=blue" alt="Views"/>
-</p>
+<div align="center">
+  <h3 style="border-bottom: 1px solid #21262d; padding-bottom: 10px;"><b>🛠️ Skills & Expertise 🛠️</b></h3>
+  <p>
+    <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+    <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+    <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  </p>
+  </div>
+<br/>
+
+<div align="center">
+  <h3 style="border-bottom: 1px solid #21262d; padding-bottom: 10px;"><b>📈 GitHub Activity 📈</b></h3>
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api?username=SungRyulCho&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="SungRyulCho's GitHub stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SungRyulCho&layout=compact&theme=tokyonight&hide_border=true" alt="SungRyulCho's Top Languages" />
+  </p>
+</div>
+<br/>
+
+<div align="center">
+  <h3 style="border-bottom: 1px solid #21262d; padding-bottom: 10px;"><b>🤝 Connect with Me 🤝</b></h3>
+  <p>
+    <a href="mailto:hanatess@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+    <a href="https://sungryulcho.github.io/categories/dev/"><img src="https://img.shields.io/badge/Blog-1e90ff?style=for-the-badge&logo=blogger&logoColor=white"/></a>
+    </p>
+</div>
