@@ -1,30 +1,42 @@
-### 👋 안녕하세요! 성장하는 백엔드 개발자입니다.
+<a href="https://github.com/SungRyulCho">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Growing%20Developer&fontSize=90" />
+</a>
 
-- 저는 Java를 사용하여 안정적이고 효율적인 서버를 구축하는 것에 관심이 많습니다.
-- 꾸준히 배우고 적용하며 더 나은 개발자로 성장하는 것을 목표로 하고 있습니다.
+<div align="center"> 
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=25D366&center=true&vCenter=true&width=435&lines=+%ED%99%98%EC%98%81%ED%95%A9%EB%8B%88%EB%8B%A4!+%EB%B0%B1%EC%97%94%EB%93%9C+%EA%B0%9C%EB%B0%9C%EC%9E%90+%EC%95%84%EB%AC%B4%EA%B0%9C%EC%9E%85%EB%8B%88%EB%8B%A4.;Hello%2C+World!;I'm+a+Backend+Developer;Always+Learning+New+Things" alt="Typing SVG" />
+  </a>
+</div>
 
 <br>
 
 ---
 
 ### 🛠️ 기술 스택 (Tech Stack)
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-<br>
-
----
-
-### 🚀 프로젝트 (Projects)
-
-- 앞으로 이곳에 멋진 프로젝트들을 채워나갈 예정입니다!
+<div align="left">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
+  </div>
 
 <br>
 
 ---
 
-### 📊 GitHub 통계 (GitHub Stats)
+### 🔥 GitHub 활동 (GitHub Stats)
+<div>
+  <img src="https://github-readme-stats.vercel.app/api?username=SungRyulCho&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SungRyulCho&layout=compact&theme=radical" alt="Top Langs" />
+</div>
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SungRyulCho&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+<br>
+
+### 🌿 잔디 심기 (Contribution Graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=SungRyulCho&bg_color=0d1117&color=ffffff&line=00b4ab&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
+
+<p align="center"> 
+  <img src="https://profile-counter.glitch.me/SungRyulCho/count.svg" alt="Visitors" /> 
+</p>
