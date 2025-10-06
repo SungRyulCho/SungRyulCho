@@ -34,7 +34,7 @@
 <div align="center">
   <h3 style="border-bottom: 1px solid #21262d; padding-bottom: 10px;"><b>🤝 Connect with Me 🤝</b></h3>
   <p>
-    <a href="mailto:hanatess@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-    <a href="https://sungryulcho.github.io/categories/dev/"><img src="https://img.shields.io/badge/Blog-1e90ff?style=for-the-badge&logo=blogger&logoColor=white"/></a>
+    <a href="mailto:hahahoho5811@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+    <a href="https://velog.io/@ashi0312/posts"><img src="https://img.shields.io/badge/Blog-1e90ff?style=for-the-badge&logo=blogger&logoColor=white"/></a>
     </p>
 </div>
