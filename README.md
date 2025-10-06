@@ -9,7 +9,7 @@
 <div align="center"> 
   <h3>📬 Contact Me</h3>
   <a href="mailto:hahahoho5811@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"></a>
-  <a href="https://velog.io/@hahahoho5811"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Vimeo&logoColor=white"></a>
+  <a href="https://velog.io/@ashi0312/"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Vimeo&logoColor=white"></a>
 </div>
 <br>
 
@@ -37,6 +37,4 @@
   <img src="https://komarev.com/ghpvc/?username=SungRyulCho&style=flat-square&color=blue" alt="Views"/>
 </div>
 
-<a href="https://github.com/SungRyulCho">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=auto&height=150&section=footer" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=auto&height=120&section=footer" />
