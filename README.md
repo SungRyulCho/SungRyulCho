@@ -37,4 +37,4 @@
   <img src="https://komarev.com/ghpvc/?username=SungRyulCho&style=flat-square&color=blue" alt="Views"/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=auto&height=120&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=120&section=footer" />
