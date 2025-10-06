@@ -8,8 +8,8 @@
 
 <div align="center"> 
   <h3>📬 Contact Me</h3>
-  <a href="mailto:hahahahah0811@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"></a>
-  <a href="https://velog.io/@hahahah0811"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Vimeo&logoColor=white"></a>
+  <a href="mailto:hahahoho5811@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"></a>
+  <a href="https://velog.io/@hahahoho5811"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Vimeo&logoColor=white"></a>
 </div>
 <br>
 
@@ -23,24 +23,13 @@
 <br>
 
 <div align="center">
-  <h3>🏆 GitHub Stats & Trophies 🏆</h3>
+  <h3>📊 GitHub Stats 📊</h3>
   <a href="https://github.com/SungRyulCho">
     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SungRyulCho&layout=compact&theme=tokyonight" />
   </a>
-  <br>
   <a href="https://github.com/SungRyulCho">
     <img align="center" src="https://github-readme-stats.vercel.app/api?username=SungRyulCho&show_icons=true&theme=tokyonight" />
   </a>
-  <br>
-  <a href="https://github.com/SungRyulCho">
-    <img align="center" src="https://github-profile-trophy.vercel.app/?username=SungRyulCho&theme=tokyonight&margin-w=15&margin-h=15" />
-  </a>
-</div>
-<br>
-
-<div align="center">
-  <h3>🐍 My Contribution Snake 🐍</h3>
-  <img src="https://raw.githubusercontent.com/SungRyulCho/SungRyulCho/output/github-contribution-grid-snake-dark.svg?palette=github-dark" alt="snake animation" />
 </div>
 <br>
 
