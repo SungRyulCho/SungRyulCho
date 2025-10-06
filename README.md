@@ -30,12 +30,24 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SungRyulCho&layout=compact&theme=radical" alt="Top Langs" />
 </div>
 
+### 🏆 My GitHub Trophies
+[![trophy](https://github-profile-trophy.vercel.app/?username=SungRyulCho&theme=radical&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
 <br>
 
 ### 🌿 잔디 심기 (Contribution Graph)
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=SungRyulCho&bg_color=0d1117&color=ffffff&line=00b4ab&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
+### 🐍 My Contribution Snake
+![snake animation](https://raw.githubusercontent.com/SungRyulCho/SungRyulCho/output/github-contribution-grid-snake.svg)
+
 ---
+
+### 📬 Contact Me
+<div align="left">
+    <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"></a>
+    <a href="https://velog.io/@your_velog_id"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Vimeo&logoColor=white"></a>
+</div>
 
 <p align="center"> 
   <img src="https://komarev.com/ghpvc/?username=SungRyulCho&label=Visitors&color=blue&style=flat-square" alt="SungRyulCho's profile views"/>
