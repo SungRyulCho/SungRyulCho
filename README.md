@@ -1,9 +1,7 @@
 <div align="center">
 
-<img src="https://github.com/SungRyulCho.png?size=150" style="border-radius: 50%;" alt="Profile Picture"/>
-
 <h1>Hello, I'm SungRyulCho! 👋</h1>
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&pause=1000&color=3399FF&center=true&vCenter=true&width=435&lines=A+Passionate+Backend+Developer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&pause=1000&color=3399FF&center=true&vCenter=true&width=435&lines=A+Growing+Backend+Developer" alt="Typing SVG" />
 <p>A detail-oriented developer focused on building efficient and scalable backend systems.</p>
 
 <p>
