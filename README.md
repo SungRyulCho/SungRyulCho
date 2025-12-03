@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>🚀 Efficient & Scalable Backend Builder</h3>
-  <p>효율적이고 확장 가능한 백엔드 시스템 구축에 집중하는 개발자 <b>조성렬</b>입니다.</p>
+  <p>효율적이고 확장 가능한 백엔드 시스템 구축에 집중하는 개발자 <b>조성률</b>입니다.</p>
 </div>
 
 <br/>
@@ -29,16 +29,8 @@
 
 <div align="center">
   <h3><b>📈 GitHub Analytics 📈</b></h3>
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=SungRyulCho&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="SungRyulCho's GitHub stats" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SungRyulCho&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="SungRyulCho's Top Languages" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats.vercel.app/api?username=SungRyulCho&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" alt="SungRyulCho's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SungRyulCho&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="165" alt="SungRyulCho's Top Languages" />
 </div>
 
 <br/>
