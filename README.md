@@ -1,9 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:7023c4,100:0b1034&height=250&section=header&text=Hello,%20I'm%20SungRyul!&fontSize=50&fontAlignY=40&desc=Backend%20Developer%20specializing%20in%20Spring%20%26%20JPA&descSize=20&descAlignY=65&animation=fadeIn&fontColor=ffffff"/>
-</div>
-
-<div align="center">
-  <h3>🚀 Efficient & Scalable Backend Builder</h3>
+  <h3>🚀 Efficient &amp; Scalable Backend Builder</h3>
   <p>효율적이고 확장 가능한 백엔드 시스템 구축에 집중하는 개발자 <b>조성률</b>입니다.</p>
 </div>
 
@@ -28,14 +24,6 @@
 <br/>
 
 <div align="center">
-  <h3><b>📈 GitHub Analytics 📈</b></h3>
-  <img src="https://github-readme-stats.vercel.app/api?username=SungRyulCho&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" alt="SungRyulCho's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SungRyulCho&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="165" alt="SungRyulCho's Top Languages" />
-</div>
-
-<br/>
-
-<div align="center">
   <h3><b>🤝 Contact Me 🤝</b></h3>
   <a href="mailto:hahahoho5811@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
@@ -47,5 +35,5 @@
 
 <br/>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0b1034,100:7023c4&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0b1034,100:7023c4&height=100&section=footer" alt="footer"/>
 </div>
