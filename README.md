@@ -75,7 +75,6 @@ Python, FastAPI, SQLAlchemy, MySQL, Streamlit, Docker, Faster-Whisper, Transform
 
 - 정보처리기사: 소프트웨어공학, DB, 네트워크, 보안 개념 정리 중
 - Coding Test: 알고리즘 문제 풀이 기록
-- TraceDocs: Spring Boot, PostgreSQL + pgvector, Redis 기반 문서 RAG 백엔드 설계 중
 
 ## Links
 
