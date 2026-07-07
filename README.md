@@ -48,14 +48,7 @@ Java/Spring 기반 백엔드 개발을 중심으로 도메인 정합성, 인증/
 
 원티드랩 포텐업 Final Project 전체 1위
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Redisson](https://img.shields.io/badge/Redisson-B71C1C?style=flat-square&logo=redis&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+Stack: Java, Spring Boot, JPA, PostgreSQL, Redis, Redisson, JWT, AWS
 
 - 보관함/공유 덱 도메인, 카드 저장, 초대/참여/퇴장, 호스트 승계 정책 구현
 - 공유 덱 카드 저장의 중복 저장과 50장 제한 초과 가능성을 Redisson 분산 락으로 제어
@@ -68,11 +61,7 @@ Java/Spring 기반 백엔드 개발을 중심으로 도메인 정합성, 인증/
 
 모두의 창업 1차 심사 통과
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+Stack: Next.js, TypeScript, PostgreSQL, OpenAI, Vercel
 
 - 한국 거주 외국인과 한국인이 하루 공유 음성을 기반으로 감정카드를 교환하는 MVP 설계/구현
 - Next.js API Routes로 session, matching, transcription, emotion analysis, card exchange, report API 구성
@@ -84,15 +73,7 @@ Java/Spring 기반 백엔드 개발을 중심으로 도메인 정합성, 인증/
 
 원티드랩 포텐업 AI Hackathon 전체 1위
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Faster-Whisper](https://img.shields.io/badge/Faster--Whisper-111827?style=flat-square)
-![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![llama.cpp](https://img.shields.io/badge/llama.cpp-5A45FF?style=flat-square)
+Stack: Python, FastAPI, SQLAlchemy, MySQL, Streamlit, Docker, Faster-Whisper, Transformers, llama.cpp
 
 - 음성 업로드 이후 STT, 감정 분류, 로컬 LLM 생성을 거쳐 감정 일기와 조언 생성
 - 긴 AI 처리 시간을 사용자 요청과 분리하기 위해 `202 Accepted`, background task, 상태 조회 API 구성
