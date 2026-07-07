@@ -1,4 +1,4 @@
-# Backend Developer, 조성률
+# Java/Spring Backend Developer
 
 Java/Spring 기반 백엔드 개발을 중심으로 도메인 정합성, 인증/인가, 트랜잭션 경계, 동시성 제어, 조회 성능 개선을 다룹니다.
 
