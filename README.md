@@ -61,7 +61,8 @@ Stack: Java 21, Spring Boot 3, Spring Security, JPA, PostgreSQL, Redis, Redisson
 
 - 좋아요와 싫어요 스와이프 이력을 저장하고 좋아요 카드를 기본 덱에 자동 저장
 - 기본 덱, 커스텀 덱, 공유 덱 API와 공유 덱 초대, 참여, 나가기, 카드 공동 편집 기능 구현
-- Redisson 분산 락과 트랜잭션 실행 순서를 분리해 동시 저장에서도 덱의 50장 제한 유지
+- SpEL 기반 동적 키를 받는 `@DistributedLock` AOP를 덱 카드 저장과 공유 덱 참여에 재사용
+- `REQUIRES_NEW` 트랜잭션이 커밋된 뒤 잠금을 해제하도록 구성하고, 동시 요청 테스트로 50장 제한 유지 확인
 - 덱별 카드 수와 최신 미리보기 조회를 N + N회에서 1 + 1회로 개선
 - 관리자 초대, 로그인 제한, 토큰 재발급, 로그아웃, 계정 정지와 기존 토큰 차단 기능 구현
 
@@ -73,8 +74,9 @@ Stack: Java 21, Spring Boot 3, Spring Security, JPA, PostgreSQL, Redis, Redisson
 
 Stack: Java 21, Spring Boot 3, JPA, MySQL, GCP, GCS, GitHub Actions, Loki
 
-- 강의 승인 시 영상 레슨별 AI 요약 작업을 등록하고 승인 응답과 긴 영상 처리를 분리
-- 같은 레슨의 중복 작업을 막고 처리 상태, 실패, 재시도 흐름을 관리
+- 강의 승인 상태와 영상 레슨별 AI 요약 작업을 `ai_outbox`에 한 트랜잭션으로 저장해 승인 응답과 긴 GPU 처리를 분리
+- `lesson_id` 유니크 제약과 `SKIP LOCKED`로 중복 등록과 작업 선점 충돌 방지
+- 실패 작업을 1분, 5분, 60분 뒤 최대 3회 재시도하고, 10분 이상 멈춘 작업은 스케줄러가 다시 처리
 - 리뷰 작성, 조회, 삭제, 강사 답글 API와 작성 조건 검증 구현
 - GitHub Actions 자동 배포와 요청 번호 기반 Loki 오류 추적 구성
 
@@ -86,10 +88,14 @@ Stack: Java 21, Spring Boot 3, JPA, MySQL, GCP, GCS, GitHub Actions, Loki
 
 Stack: Python, FastAPI, SQLAlchemy, MySQL, Faster-Whisper, mDeBERTa-v3, llama.cpp, EXAONE 3.0
 
-- 음성 업로드 직후 `202 Accepted`와 일기 ID를 반환하고 처리 상태와 실패 이유 조회 API 구현
+- 음성 업로드 직후 `202 Accepted`와 일기 ID를 반환하고, 단계마다 `process_message`를 저장해 현재 처리 단계와 실패 이유 안내
 - 볼륨 정규화와 16 kHz 단일 채널 변환 후 Faster-Whisper로 한국어 음성 인식
 - mDeBERTa-v3의 16개 감정 라벨을 8개 한국어 감정 점수로 합산해 저장
-- EXAONE 3.0을 llama.cpp로 로컬 실행해 일기, 제목, 위로 메시지를 각각 생성
+- 4.4GB EXAONE 3.0 Q4_K_M 모델을 `__new__` 싱글톤으로 한 번만 적재
+- 일기 `temperature 0.3 / 400 tokens`, 제목 `0.7 / 50`, 위로 `0.7 / 150`으로 생성 설정 분리
+- 한자와 특수 토큰을 제거하고, 생성 일부가 실패하면 원문, 첫 문장, 기본 문구로 결과 유지
+- 8개 감정 점수를 모두 누적한 주간 리포트와 Prometheus 사용자, 일기, 감정 지표 구현
+- 해커톤 범위에서는 단일 인스턴스 `BackgroundTasks`를 선택하고, 처리량 확장 시 외부 큐와 전용 워커가 필요하다는 한계 정리
 
 ## Experience
 
