@@ -71,7 +71,7 @@ Stack: Java 21, Spring Boot 3, Spring Security, JPA, PostgreSQL, Redis, Redisson
 
 (2025.12 - 2026.02) / 7인 팀 / Backend
 
-Stack: Java 21, Spring Boot 3, JPA, PostgreSQL, Redis, GCP, GCS, GitHub Actions, Loki
+Stack: Java 21, Spring Boot 3, JPA, MySQL, GCP, GCS, GitHub Actions, Loki
 
 - 강의 승인 시 영상 레슨별 AI 요약 작업을 등록하고 승인 응답과 긴 영상 처리를 분리
 - 같은 레슨의 중복 작업을 막고 처리 상태, 실패, 재시도 흐름을 관리
