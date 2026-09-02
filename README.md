@@ -59,12 +59,10 @@ DEKK에서는 동시 저장, 반복 조회, 관리자 인증 문제를 코드와
 
 Stack: Java 21, Spring Boot 3, Spring Security, JPA, PostgreSQL, Redis, Redisson, AWS
 
-- 좋아요와 싫어요 스와이프 이력을 저장하고 좋아요 카드를 기본 덱에 자동 저장
-- 기본 덱, 커스텀 덱, 공유 덱 API와 공유 덱 초대, 참여, 나가기, 카드 공동 편집 기능 구현
-- SpEL 기반 동적 키를 받는 `@DistributedLock` AOP를 덱 카드 저장과 공유 덱 참여에 재사용
-- `REQUIRES_NEW` 트랜잭션이 커밋된 뒤 잠금을 해제하도록 구성하고, 동시 요청 테스트로 50장 제한 유지 확인
-- 덱별 카드 수와 최신 미리보기 조회를 N + N회에서 1 + 1회로 개선
-- 관리자 초대, 로그인 제한, 토큰 재발급, 로그아웃, 계정 정지와 기존 토큰 차단 기능 구현
+- 덱(카드 보관함)과 공유 편집 API, 관리자 인증, AWS 백엔드 배포 흐름 담당
+- 공유 덱 동시 저장에서 50장 제한과 중복 저장 규칙이 깨질 수 있어 SpEL 기반 `@DistributedLock` AOP와 `REQUIRES_NEW` 트랜잭션을 적용하고, 동시 요청 테스트로 규칙 유지 확인
+- 덱 목록의 카드 수와 최신 카드 반복 조회를 일괄 조회로 바꿔 N + N회 쿼리를 1 + 1회로 개선
+- 로그아웃과 계정 정지 뒤 기존 JWT를 Redis 차단 목록과 계정 상태 검사로 즉시 거부
 
 ### [LearnFlow - AI 영상 요약 학습 플랫폼](https://github.com/team-Octave/learnflow-api)
 
@@ -74,11 +72,10 @@ Stack: Java 21, Spring Boot 3, Spring Security, JPA, PostgreSQL, Redis, Redisson
 
 Stack: Java 21, Spring Boot 3, JPA, MySQL, GCP, GCS, GitHub Actions, Loki
 
-- 강의 승인 상태와 영상 레슨별 AI 요약 작업을 `ai_outbox`에 한 트랜잭션으로 저장해 승인 응답과 긴 GPU 처리를 분리
-- `lesson_id` 유니크 제약과 `SKIP LOCKED`로 중복 등록과 작업 선점 충돌 방지
+- 강의 승인과 AI 요약 작업 등록, 리뷰 API, GCP 배포와 로그 추적 담당
+- 승인 응답 지연과 AI 작업 누락을 막기 위해 승인 상태와 작업을 `ai_outbox`에 한 트랜잭션으로 저장하고, `lesson_id` 유니크 제약과 `SKIP LOCKED`로 중복 처리 방지
 - 실패 작업을 1분, 5분, 60분 뒤 최대 3회 재시도하고, 10분 이상 멈춘 작업은 스케줄러가 다시 처리
-- 리뷰 작성, 조회, 삭제, 강사 답글 API와 작성 조건 검증 구현
-- GitHub Actions 자동 배포와 요청 번호 기반 Loki 오류 추적 구성
+- 리뷰 목록의 반복 조회를 ID 집합 일괄 조회와 Map 조립으로 바꾸고, Trace ID로 오류 응답과 Loki 로그를 연결
 
 ### [Vench AI - 음성 기반 AI 감정 일기 서비스](https://github.com/voice-journal/vench)
 
@@ -88,14 +85,10 @@ Stack: Java 21, Spring Boot 3, JPA, MySQL, GCP, GCS, GitHub Actions, Loki
 
 Stack: Python, FastAPI, SQLAlchemy, MySQL, Faster-Whisper, mDeBERTa-v3, llama.cpp, EXAONE 3.0
 
-- 음성 업로드 직후 `202 Accepted`와 일기 ID를 반환하고, 단계마다 `process_message`를 저장해 현재 처리 단계와 실패 이유 안내
-- 볼륨 정규화와 16 kHz 단일 채널 변환 후 Faster-Whisper로 한국어 음성 인식
-- mDeBERTa-v3의 16개 감정 라벨을 8개 한국어 감정 점수로 합산해 저장
-- 4.4GB EXAONE 3.0 Q4_K_M 모델을 `__new__` 싱글톤으로 한 번만 적재
-- 일기 `temperature 0.3 / 400 tokens`, 제목 `0.7 / 50`, 위로 `0.7 / 150`으로 생성 설정 분리
-- 한자와 특수 토큰을 제거하고, 생성 일부가 실패하면 원문, 첫 문장, 기본 문구로 결과 유지
-- 8개 감정 점수를 모두 누적한 주간 리포트와 Prometheus 사용자, 일기, 감정 지표 구현
-- 해커톤 범위에서는 단일 인스턴스 `BackgroundTasks`를 선택하고, 처리량 확장 시 외부 큐와 전용 워커가 필요하다는 한계 정리
+- Faster-Whisper 음성 인식, mDeBERTa-v3 감정 분석, EXAONE 로컬 LLM 생성과 주간 리포트 구현
+- 해커톤 기간과 단일 서버 환경을 고려해 별도 메시지 브로커 대신 FastAPI `BackgroundTasks`를 선택하고, `202 Accepted` 응답과 단계별 `process_message`로 긴 AI 처리 과정을 안내
+- 4.4GB EXAONE 3.0 Q4_K_M 모델을 `__new__` 싱글톤으로 한 번만 적재하고, 출력별 생성 설정과 후처리 및 실패 폴백 적용
+- 8개 감정 점수를 모두 누적해 주간 리포트를 만들고 Prometheus 사용자, 일기, 감정 지표 구현
 
 ## Experience
 
