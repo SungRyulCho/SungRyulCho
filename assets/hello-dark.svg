@@ -3,9 +3,9 @@
   <desc id="desc">Backend Developer</desc>
   <style>
     .greeting { fill: url(#mint); }
-    .subtitle { fill: #57606a; }
+    .subtitle { fill: #9ca3af; }
     .reveal { animation: typing 1.6s steps(17, end) 0.15s both; }
-    .cursor { fill: #0f766e; animation: move 1.6s steps(17, end) 0.15s both, blink 0.6s step-end 6; }
+    .cursor { fill: #5eead4; animation: move 1.6s steps(17, end) 0.15s both, blink 0.6s step-end 6; }
     @keyframes typing { from { width: 0; } to { width: 326.4px; } }
     @keyframes move { from { transform: translateX(0); } to { transform: translateX(326.4px); } }
     @keyframes blink { 50% { opacity: 0; } }
@@ -16,8 +16,8 @@
   </style>
   <defs>
     <linearGradient id="mint" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#15803d" />
-      <stop offset="100%" stop-color="#0f766e" />
+      <stop offset="0%" stop-color="#86efac" />
+      <stop offset="100%" stop-color="#5eead4" />
     </linearGradient>
     <clipPath id="typing"><rect class="reveal" x="136.8" y="33" width="326.4" height="45" /></clipPath>
   </defs>

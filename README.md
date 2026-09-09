@@ -2,7 +2,7 @@
 
 <br>
 
-<img src="./assets/hello.svg" width="600" alt="Hi, I'm SungRyul. Backend Developer" />
+<img src="./assets/hello.svg#gh-light-mode-only" width="600" alt="Hi, I'm SungRyul. Backend Developer" /><img src="./assets/hello-dark.svg#gh-dark-mode-only" width="600" alt="Hi, I'm SungRyul. Backend Developer" />
 
 <p>제가 만든 기능을 사람들이 즐겁게 사용할 때 가장 보람을 느낍니다.</p>
 
