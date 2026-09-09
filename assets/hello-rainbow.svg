@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="136" viewBox="0 0 600 136" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm SungRyul!</title>
-  <desc id="desc">Backend Developer</desc>
+  <desc id="desc">Backend Developer, rainbow greeting</desc>
   <style>
     .greeting { fill: url(#rainbow); }
     .subtitle { fill: #57606a; }
