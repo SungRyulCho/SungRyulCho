@@ -1,110 +1,124 @@
-# Backend Developer
+# 조성률 | 백엔드 개발자
 
-동시성, 조회 성능, 인증과 보안 등 서비스 안정성 문제를 데이터와 테스트로 검증하며 개선해 온 백엔드 개발자입니다.
+제가 만든 기능을 사람들이 만족하며 쓸 때 가장 보람을 느끼는 백엔드 개발자 조성률입니다.
 
-Java / Spring Boot와 Python / FastAPI로 REST API, 트랜잭션 경계, 비동기 처리 흐름을 구현했습니다.
-DEKK에서는 동시 저장, 반복 조회, 관리자 인증 문제를 코드와 테스트로 확인하고 개선했습니다.
-쿠팡에서 주 3회 SQL / Excel 기반 리포트를 발행하며 데이터로 근거를 세우는 훈련을 했고, 이 습관은 개발에서도 로그와 테스트로 문제를 검증하는 방식으로 이어지고 있습니다.
+팀원들과 기획하고 의견을 주고받으며, 혼자서는 생각하지 못했던 부분을 발견하는 과정도 좋아합니다. 기능을 구현한 뒤에는 사람들이 어떻게 사용하는지 살펴보고, 불편한 점을 하나씩 고칩니다.
 
-## Tech Stack
+[Velog](https://velog.io/@ashi0312/posts) / [Email](mailto:hahahoho5811@gmail.com)
 
-**Backend**
+## 기술 스택
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+### 주력 기술
 
-**Database / Cache**
+| 구분 | 기술 |
+| --- | --- |
+| 언어 | Java / Python |
+| 백엔드 | Spring Boot / Spring Security / JPA / FastAPI |
+| 데이터베이스 | MySQL / PostgreSQL / Redis |
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Redisson](https://img.shields.io/badge/Redisson-B71C1C?style=flat-square&logo=redis&logoColor=white)
+### 협업 도구
 
-**AI / ML**
+Git / GitHub / Jira / Slack / Notion
 
-![Faster-Whisper](https://img.shields.io/badge/Faster--Whisper-111827?style=flat-square)
-![mDeBERTa-v3](https://img.shields.io/badge/mDeBERTa--v3-7C3AED?style=flat-square)
-![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square)
-![llama.cpp](https://img.shields.io/badge/llama.cpp-111827?style=flat-square)
-![EXAONE 3.0](https://img.shields.io/badge/EXAONE_3.0-5B21B6?style=flat-square)
+## 프로젝트
 
-**Infra / Ops**
+### [DEKK](https://github.com/potenup-dekk/DEKK-BE)
 
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![CodeDeploy](https://img.shields.io/badge/CodeDeploy-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Loki](https://img.shields.io/badge/Loki-F5A800?style=flat-square&logo=grafana&logoColor=white)
+**여러 플랫폼의 패션 코디를 한곳에서 탐색하고 상품 구매로 연결하는 서비스**
 
-**Testing**
+여러 플랫폼의 코디를 탐색하고 덱(카드 보관함)에 저장해 공유하며 함께 편집하는 서비스입니다. 코디를 구성하는 개별 상품 정보와 판매 사이트 링크를 제공해 필요한 상품을 골라 구매하도록 돕습니다.
 
-![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white)
-![Mockito](https://img.shields.io/badge/Mockito-78A641?style=flat-square)
+(2026.02 - 2026.04) / 4인 팀 / Backend  
+원티드랩 포텐업 Final Project 전체 1위
 
-## Featured Projects
+**담당 업무:** 카드 반응 기록과 보관함 관리, 공유와 공동 편집, 동시 저장 처리, 목록 조회 개선, 사용자 및 관리자 인증, AWS 백엔드 자동 배포
 
-### [DEKK - 패션 카드 탐색 및 공유 덱 서비스](https://github.com/potenup-dekk/DEKK-BE)
+**사용 기술:** Java 21 / Spring Boot 3 / Spring Security / JPA / PostgreSQL / Redis / Redisson / AWS
 
-코디 카드를 스와이프해 취향을 탐색하고 덱에 저장하며, 공유 덱을 함께 편집하고 상품 정보와 구매 링크까지 확인하는 서비스입니다.
+#### 동시 저장에서 검사와 커밋을 함께 보호
 
-원티드랩 포텐업 Final Project 전체 1위 / (2026.02 - 2026.04) / 4인 팀 / Backend
+여러 요청이 저장 전의 카드 수와 중복 여부를 읽으면 저장 규칙이 깨질 수 있어, 보관함 ID를 기준으로 Redisson 잠금을 적용했습니다. 검사와 저장은 별도 객체의 `REQUIRES_NEW` 트랜잭션에서 실행하고, 커밋이 끝난 뒤 잠금을 해제하도록 구성했습니다.
 
-Stack: Java 21, Spring Boot 3, Spring Security, JPA, PostgreSQL, Redis, Redisson, AWS
+잠금 처리는 SpEL로 키를 지정하는 `@DistributedLock` AOP로 공통화해 카드 저장과 공유 보관함 참여에 사용했습니다. 동일 카드 저장 요청 100건을 32개 작업 스레드로 실행하는 통합 테스트에서 최종 저장 카드가 한 장인지 확인했습니다.
 
-- 덱(카드 보관함)과 공유 편집 API, 관리자 인증, AWS 백엔드 배포 흐름 담당
-- 공유 덱 동시 저장에서 50장 제한과 중복 저장 규칙이 깨질 수 있어 SpEL 기반 `@DistributedLock` AOP와 `REQUIRES_NEW` 트랜잭션을 적용하고, 동시 요청 테스트로 규칙 유지 확인
-- 덱 목록의 카드 수와 최신 카드 반복 조회를 일괄 조회로 바꿔 N + N회 쿼리를 1 + 1회로 개선
-- 로그아웃과 계정 정지 뒤 기존 JWT를 Redis 차단 목록과 계정 상태 검사로 즉시 거부
+#### 코드 리뷰에서 발견한 공유 초대 정보의 부분 저장 가능성
 
-### [LearnFlow - AI 영상 요약 학습 플랫폼](https://github.com/team-Octave/learnflow-api)
+보관함으로 공유 링크를 찾는 정보와 링크로 보관함을 찾는 정보를 Redis에 각각 저장했습니다. 팀원이 코드 리뷰에서 두 저장 사이에 네트워크가 끊기면 한쪽 정보만 남을 수 있다고 짚어주었습니다.
 
-강사가 강의와 레슨을 등록하고 학습자가 강의를 탐색해 수강하며, 영상 레슨은 수강 전에 AI 요약을 확인하고 수강 후 진도와 리뷰를 관리하는 학습 플랫폼입니다.
+먼저 `MULTI/EXEC`으로 저장을 묶고, 이후 두 키와 유효기간을 하나의 Lua 스크립트에서 설정하도록 정리했습니다. 정상 동작뿐 아니라 처리 도중 실패하는 상황까지 함께 살피게 된 경험입니다.
+
+[Notion: 협업 과정](https://lean-ferry-0f9.notion.site/30c81e1db41d80cab237c4edf1e6e699?v=30c81e1db41d8196886a000c0a546361)
+
+### [LearnFlow](https://github.com/team-Octave/learnflow-api)
+
+**강의 등록과 수강, 영상 레슨 AI 요약 및 리뷰 기능을 제공하는 학습 플랫폼**
+
+강사는 강의와 레슨을 등록해 자신의 지식과 경험을 전달합니다. 수강생은 영상 강의의 AI 요약과 핵심 키워드를 미리 살펴보고, 필요한 강의를 선택해 학습합니다.
 
 (2025.12 - 2026.02) / 7인 팀 / Backend
 
-Stack: Java 21, Spring Boot 3, JPA, MySQL, GCP, GCS, GitHub Actions, Loki
+**담당 업무:** 강의 승인과 AI 요약 작업 등록, AI 서버 연동과 결과 저장 및 조회, 실패 작업 재처리, 리뷰 API와 작성 조건 검증, 자동 배포, traceId와 Loki 로그 연결
 
-- 강의 승인과 AI 요약 작업 등록, 리뷰 API, GCP 배포와 로그 추적 담당
-- 승인 응답 지연과 AI 작업 누락을 막기 위해 승인 상태와 작업을 `ai_outbox`에 한 트랜잭션으로 저장하고, `lesson_id` 유니크 제약과 `SKIP LOCKED`로 중복 처리 방지
-- 실패 작업을 1분, 5분, 60분 뒤 최대 3회 재시도하고, 10분 이상 멈춘 작업은 스케줄러가 다시 처리
-- 리뷰 목록의 반복 조회를 ID 집합 일괄 조회와 Map 조립으로 바꾸고, Trace ID로 오류 응답과 Loki 로그를 연결
+**사용 기술:** Java 17 / Spring Boot 3 / JPA / MySQL / GCP / GCS / GitHub Actions / Loki
 
-### [Vench AI - 음성 기반 AI 감정 일기 서비스](https://github.com/voice-journal/vench)
+#### 강의 승인과 AI 작업은 함께 저장하고, 영상 분석은 별도로 처리
 
-음성으로 하루를 기록하면 AI가 자연스러운 일기와 제목으로 다듬고, 8개 감정 점수와 위로 메시지 및 주간 리포트를 제공하는 서비스입니다.
+승인과 작업 등록을 따로 처리하면 요약 작업이 누락될 수 있고, 승인 요청 안에서 영상 분석까지 기다리면 응답이 늦어집니다. 승인 상태를 변경하는 트랜잭션에서 영상 레슨의 작업도 MySQL의 `ai_outbox`에 기록하고, 분석은 별도 워커가 수행하도록 연동했습니다.
 
-원티드랩 포텐업 AI Hackathon 전체 1위 / (2026.01) / 3인 팀 / Backend & AI Pipeline
+레슨별 중복 작업은 DB 유니크 제약으로 막고, API에서 처리 결과와 재시도 횟수, 다음 실행 시각을 관리했습니다.
 
-Stack: Python, FastAPI, SQLAlchemy, MySQL, Faster-Whisper, mDeBERTa-v3, llama.cpp, EXAONE 3.0
+#### 배포 후에도 이전 설정이 남던 문제 개선
 
-- Faster-Whisper 음성 인식, mDeBERTa-v3 감정 분석, EXAONE 로컬 LLM 생성과 주간 리포트 구현
-- 해커톤 기간과 단일 서버 환경을 고려해 별도 메시지 브로커 대신 FastAPI `BackgroundTasks`를 선택하고, `202 Accepted` 응답과 단계별 `process_message`로 긴 AI 처리 과정을 안내
-- 4.4GB EXAONE 3.0 Q4_K_M 모델을 `__new__` 싱글톤으로 한 번만 적재하고, 출력별 생성 설정과 후처리 및 실패 폴백 적용
-- 8개 감정 점수를 모두 누적해 주간 리포트를 만들고 Prometheus 사용자, 일기, 감정 지표 구현
+GitHub Actions에서는 새 설정으로 빌드했지만, 서버에는 이전 외부 설정 파일이 남아 있었습니다. JAR만 교체하던 배포에 서버 설정 갱신을 포함해 빌드와 실행 환경이 같은 설정을 사용하도록 수정했습니다.
 
-## Experience
+테스트 환경을 별도로 구성하고, 새 프로세스의 health 응답 확인과 Slack 결과 알림까지 배포 과정에 포함했습니다. 코드를 올리는 것뿐 아니라 실제로 실행되는 환경까지 확인하는 습관을 배웠습니다.
 
-**Coupang COE Team / Grocery Category Owner** (2024.01 - 2024.12)
+### [Vench AI](https://github.com/voice-journal/vench)
+
+**음성으로 하루를 기록하고 감정 분석과 위로를 받는 AI 일기 서비스**
+
+글로 일기를 쓰기 부담스러운 사용자가 하루의 이야기를 말로 남길 수 있는 서비스입니다. AI가 녹음 내용을 일기로 정리하고 감정 분석 결과와 위로 메시지를 함께 제공해, 자신의 하루와 감정을 돌아보도록 돕습니다.
+
+(2026.01) / 5일 / 3인 팀 / Backend & AI Pipeline  
+원티드랩 포텐업 AI Hackathon 운영진 및 구성원 투표 전체 1위
+
+**담당 업무:** 음성 전처리와 STT, 8개 감정 점수 산출, 일기와 제목 및 위로 생성, 처리 상태 API와 대기 화면 연동, 감정 점수 누적 집계와 Prometheus 운영 지표
+
+**사용 기술:** Python / FastAPI / SQLAlchemy / MySQL / Faster-Whisper / mDeBERTa-v3 / llama.cpp / EXAONE 3.0
+
+#### 긴 분석 대기 중 현재 작업을 보여주기
+
+해커톤에서 교육생들이 서비스를 써보는 동안 AI 분석에 약 1~2분이 걸렸고, 지루해하는 모습을 보며 짧은 개발 기간 안에 바꿀 수 있는 부분을 찾았습니다. 서버는 `BackgroundTasks`에서 분석하는 동안 단계별 안내 문구를 DB에 저장하고, 화면은 처리번호로 상태를 조회해 안내를 갱신하도록 했습니다.
+
+음성 인식과 일기 생성 등 현재 처리 단계를 보여주자, 과정을 보는 것이 재미있다는 피드백을 받았습니다.
+
+#### 같은 LLM을 일기, 제목, 위로의 목적에 맞게 제어
+
+음성 인식은 Faster-Whisper, 감정 분류는 mDeBERTa-v3, 문장 생성은 EXAONE 3.0으로 나누었습니다. EXAONE에는 일기, 제목, 위로별 프롬프트와 생성 길이를 따로 지정하고, 일기 본문에는 낮은 temperature를 적용했습니다.
+
+생성 결과의 특수 토큰과 불필요한 한자를 제거하고, 제목은 첫 줄만 사용하도록 후처리했습니다. 일부 생성이 실패하면 본문은 원문, 제목은 본문 첫 줄 일부, 위로는 기본 문구를 반환하도록 구현했습니다.
+
+## 경력
+
+**쿠팡 COE Team / Grocery Category Owner** (2024.01 - 2024.12)
 
 - SQL / Excel 기반 주 3회 Buyble 분석 및 리포트 발행
 - 데이터 기반 의사결정 경험을 바탕으로 백엔드 개발자로 전향
 
-## Education & Certification
+## 학력
 
-- **한양사이버대학교 컴퓨터공학과 졸업** - 최종 이수 140학점 / 평점 3.93 / 4.5 (2022.03 - 2026.08)
-- **생성형 AI 기반 FE/BE 협업과정** - 원티드랩 K-Digital / 120일 / 960시간 (2025.09.15 - 2026.03.20)
-- **경기 AI 멤버십 채용연계형 교육** - 한컴 x 퓨리오사AI / 3개월 / 420시간 (진행중) / 입사 일정 협의 가능 (2026.08.10 - 2026.11.06)
-- **정보처리기사(필기)** / 실기 준비 중 (2026.08.28)
+**한양사이버대학교 컴퓨터공학과 졸업** (2022.03 - 2026.08)  
+최종 이수 140학점 / 평점 3.93 / 4.5
 
-## Links
+## 교육 및 훈련
 
-- Blog: [velog.io/@ashi0312](https://velog.io/@ashi0312/posts)
-- Email: [hahahoho5811@gmail.com](mailto:hahahoho5811@gmail.com)
+**생성형 AI 기반 FE/BE 협업과정** (2025.09.15 - 2026.03.20)  
+원티드랩 K-Digital / 120일 / 960시간
+
+**경기 AI 멤버십 채용연계형 교육 (진행중)** (2026.08.10 - 2026.11.06)  
+한컴 x 퓨리오사 AI / 3개월 / 420시간  
+입사 일정 협의 가능
+
+## 자격증
+
+**정보처리기사(필기)** (2026.08.28) / 실기 준비 중
