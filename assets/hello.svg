@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="136" viewBox="0 0 600 136" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm SungRyul.</title>
+  <desc id="desc">Backend Developer</desc>
+  <style>
+    .greeting { fill: #238636; }
+    .subtitle { fill: #57606a; }
+    .reveal { animation: typing 1.6s steps(17, end) 0.15s both; }
+    .cursor { animation: move 1.6s steps(17, end) 0.15s both, blink 0.6s step-end 6; }
+    @keyframes typing { from { width: 0; } to { width: 326.4px; } }
+    @keyframes move { from { transform: translateX(0); } to { transform: translateX(326.4px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-color-scheme: dark) {
+      .greeting { fill: #3fb950; }
+      .subtitle { fill: #9198a1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { animation: none; }
+      .cursor { display: none; }
+    }
+  </style>
+  <defs>
+    <clipPath id="typing"><rect class="reveal" x="136.8" y="33" width="326.4" height="45" /></clipPath>
+  </defs>
+  <text class="greeting" x="136.8" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="600" textLength="326.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing)">Hi, I'm SungRyul.</text>
+  <rect class="greeting cursor" x="138.8" y="40" width="2" height="30" rx="1" />
+  <text class="subtitle" x="300" y="107" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" letter-spacing="2">BACKEND DEVELOPER</text>
+</svg>
