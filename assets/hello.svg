@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="136" viewBox="0 0 600 136" role="img" aria-labelledby="title desc">
-  <title id="title">Hi, I'm SungRyul.</title>
+  <title id="title">Hi, I'm SungRyul!</title>
   <desc id="desc">Backend Developer</desc>
   <style>
-    .greeting { fill: url(#mint); }
+    .greeting { fill: url(#rainbow); }
     .subtitle { fill: #57606a; }
     .reveal { animation: typing 1.6s steps(17, end) 0.15s both; }
-    .cursor { fill: #0f766e; animation: move 1.6s steps(17, end) 0.15s both, blink 0.6s step-end 6; }
+    .cursor { fill: #be185d; animation: move 1.6s steps(17, end) 0.15s both, blink 0.6s step-end 6; }
     @keyframes typing { from { width: 0; } to { width: 326.4px; } }
     @keyframes move { from { transform: translateX(0); } to { transform: translateX(326.4px); } }
     @keyframes blink { 50% { opacity: 0; } }
@@ -15,13 +15,18 @@
     }
   </style>
   <defs>
-    <linearGradient id="mint" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#15803d" />
-      <stop offset="100%" stop-color="#0f766e" />
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e11d48" />
+      <stop offset="16%" stop-color="#c2410c" />
+      <stop offset="32%" stop-color="#a16207" />
+      <stop offset="48%" stop-color="#15803d" />
+      <stop offset="64%" stop-color="#0284c7" />
+      <stop offset="82%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#be185d" />
     </linearGradient>
     <clipPath id="typing"><rect class="reveal" x="136.8" y="33" width="326.4" height="45" /></clipPath>
   </defs>
-  <text class="greeting" x="136.8" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="600" textLength="326.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing)">Hi, I'm SungRyul.</text>
+  <text class="greeting" x="136.8" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="600" textLength="326.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing)">Hi, I'm SungRyul!</text>
   <rect class="cursor" x="138.8" y="40" width="2" height="30" rx="1" />
-  <text class="subtitle" x="300" y="107" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" letter-spacing="2">BACKEND DEVELOPER</text>
+  <text class="subtitle" x="300" y="107" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" letter-spacing="0.8">Backend Developer</text>
 </svg>
