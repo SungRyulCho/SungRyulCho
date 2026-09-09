@@ -2,7 +2,7 @@
 
 <br>
 
-<img src="./assets/hello.svg#gh-light-mode-only" width="600" alt="Hi, I'm SungRyul! Backend Developer" /><img src="./assets/hello-dark.svg#gh-dark-mode-only" width="600" alt="Hi, I'm SungRyul! Backend Developer" />
+<img src="./assets/hello.svg?v=rainbow#gh-light-mode-only" width="600" alt="Hi, I'm SungRyul! Backend Developer" /><img src="./assets/hello-dark.svg?v=rainbow#gh-dark-mode-only" width="600" alt="Hi, I'm SungRyul! Backend Developer" />
 
 <br>
 
